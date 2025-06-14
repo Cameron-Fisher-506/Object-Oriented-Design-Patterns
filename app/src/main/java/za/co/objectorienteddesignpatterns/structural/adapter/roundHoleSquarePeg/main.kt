@@ -1,4 +1,4 @@
-package za.co.objectorienteddesignpatterns.structural.adapter
+package za.co.objectorienteddesignpatterns.structural.adapter.roundHoleSquarePeg
 
 fun main() {
     val hole = RoundHole(5.0)

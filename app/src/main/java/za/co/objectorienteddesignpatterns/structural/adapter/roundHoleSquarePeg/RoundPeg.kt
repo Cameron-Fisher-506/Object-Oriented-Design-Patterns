@@ -1,4 +1,4 @@
-package za.co.objectorienteddesignpatterns.structural.adapter
+package za.co.objectorienteddesignpatterns.structural.adapter.roundHoleSquarePeg
 
 open class RoundPeg {
     private var radius: Double = 0.0

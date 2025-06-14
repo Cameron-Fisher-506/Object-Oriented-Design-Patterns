@@ -1,0 +1,13 @@
+Usage examples:
+The Adapter pattern is pretty common in Java code.
+It’s very often used in systems based on some legacy code.
+In such cases, Adapters make legacy code work with modern classes.
+
+Problem:
+Our system is a legacy Weather system which accepts and processes XML data from
+a weather service. There's a new requirement to send the XML data to an
+external Analytics system. The Analytics system accepts JSON data.
+
+Solution:
+We can use the adapter pattern to create an adapter which converts the XML to JSON.
+For this example we will use String and Integer for data types respectively.

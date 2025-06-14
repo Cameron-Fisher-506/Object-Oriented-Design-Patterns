@@ -1,4 +1,4 @@
-package za.co.objectorienteddesignpatterns.structural.adapter
+package za.co.objectorienteddesignpatterns.structural.adapter.roundHoleSquarePeg
 
 import kotlin.math.pow
 import kotlin.math.sqrt
