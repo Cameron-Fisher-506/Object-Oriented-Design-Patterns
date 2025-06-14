@@ -1,0 +1,13 @@
+Usage examples:
+The Adapter pattern is pretty common in Java code.
+It’s very often used in systems based on some legacy code.
+In such cases, Adapters make legacy code work with modern classes.
+
+Problem:
+Fitting square pegs into round holes. Round holes, as you would assume, only accepts
+round pegs based on shape. The radius of the peg is used to determine if the round
+peg will fit in the round hole.
+
+Solution:
+Use the adapter pattern to create an adapter which accepts square pegs and
+calculates the radius of the square peg.
